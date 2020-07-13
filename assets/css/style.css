@@ -1,0 +1,74 @@
+
+#person-form {
+    float: left;
+    margin: 20px;
+    width: 250px;
+}
+
+#person-input {
+    width: 300px;
+}
+
+body {
+    margin: 20px;
+    font: 18px arial, sans-serif;
+    background: rgb(10, 121, 155)
+}
+#dev-form{
+    float:left;
+    background:rgb(13, 104, 77);
+    margin-right: 20px;
+    border-radius: 25px;
+}
+#devs {
+    width: 70%;
+}
+.dev-item {
+    float: left;
+    padding: 10px;
+}
+form {
+    float:right;
+    width: 30%;
+    padding: 20px;
+}
+
+label{
+    display:block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: rgb(185, 194, 202);
+    color: rgb(13, 104, 77);
+
+}
+button,
+input[type="submit"] {
+    padding: 5px 20px;
+    margin: 0 10px 10px 0;
+    font-size: 18px;
+    color: rgb(91, 153, 96);
+    cursor: pointer;
+    background: rgb(3, 2, 46);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(91, 153, 96);
+}
+button:hover,
+input[type="submit"]:hover {
+    background: rgb(10, 121, 155);
+}
+button.active {
+    background:#184b27;
+}
+
+img {
+    border-radius: 15px;
+
+}
